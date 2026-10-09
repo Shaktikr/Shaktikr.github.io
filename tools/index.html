@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free Engineering Calculators: Mohr&#x27;s Circle, Beam Deflection, Fatigue, XRD and More | Shakti Kumar</title>
+<meta name="description" content="Nine free engineering calculators: Mohr&#x27;s circle, beam deflection, FEM demo, Paris-law fatigue, composite stiffness, Ashby material selection, XRD peaks, diffusion and creep life, and a unit converter.">
+<link rel="canonical" href="https://shaktikr.github.io/tools/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Shakti Kumar">
+<meta name="theme-color" content="#0b5394">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Shakti Kumar Engineering">
+<meta property="og:title" content="Free Engineering Calculators: Mohr&#x27;s Circle, Beam Deflection, Fatigue, XRD and More | Shakti Kumar">
+<meta property="og:description" content="Nine free engineering calculators: Mohr&#x27;s circle, beam deflection, FEM demo, Paris-law fatigue, composite stiffness, Ashby material selection, XRD peaks, diffusion and creep life, and a unit converter.">
+<meta property="og:url" content="https://shaktikr.github.io/tools/">
+<meta property="og:image" content="https://shaktikr.github.io/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://shaktikr.github.io/assets/og.png">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Free engineering calculators", "url": "https://shaktikr.github.io/tools/", "hasPart": [{"@type": "WebApplication", "name": "Mohr's circle calculator", "url": "https://shaktikr.github.io/tools/mohrs-circle-calculator/"}, {"@type": "WebApplication", "name": "Beam deflection calculator", "url": "https://shaktikr.github.io/tools/beam-deflection-calculator/"}, {"@type": "WebApplication", "name": "Finite element method demo", "url": "https://shaktikr.github.io/tools/finite-element-method-demo/"}, {"@type": "WebApplication", "name": "Fatigue crack growth calculator", "url": "https://shaktikr.github.io/tools/paris-law-fatigue-calculator/"}, {"@type": "WebApplication", "name": "Composite stiffness calculator", "url": "https://shaktikr.github.io/tools/composite-stiffness-calculator/"}, {"@type": "WebApplication", "name": "Material selector", "url": "https://shaktikr.github.io/tools/material-selection-ashby-chart/"}, {"@type": "WebApplication", "name": "XRD peak calculator", "url": "https://shaktikr.github.io/tools/xrd-peak-calculator/"}, {"@type": "WebApplication", "name": "Diffusion and creep life calculator", "url": "https://shaktikr.github.io/tools/diffusion-creep-life-calculator/"}, {"@type": "WebApplication", "name": "Engineering unit converter", "url": "https://shaktikr.github.io/tools/engineering-unit-converter/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://shaktikr.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Free tools", "item": "https://shaktikr.github.io/tools/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar"><div class="container">
+  <span class="hours">Replies within 24 hours, Monday to Saturday</span>
+  <span class="contacts">
+    <a href="mailto:kr.shakti13@gmail.com"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>kr.shakti13@gmail.com</a>
+    <a href="https://wa.me/918837708287?text=Hello%20Shakti%2C%20I%20found%20your%20website%20and%20would%20like%20a%20quote%20for%20an%20engineering%20job." target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.1Z"/><path d="M9 10.5c.4 1.8 2.2 3.6 4 4l1.2-1.1 1.8.8-.3 1.5c-3.5.4-7.7-3.8-7.3-7.3l1.5-.3.8 1.8Z"/></svg>+91 88377 08287</a>
+    <a href="https://www.linkedin.com/in/shaktikumar1310/" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn</a>
+  </span>
+</div></div>
+<header class="header"><div class="container">
+  <a class="brand" href="/" aria-label="Shakti Kumar Engineering, home">
+    <span class="brand-mark" aria-hidden="true">SK</span>
+    <span class="brand-name"><strong>Shakti Kumar</strong><span>Engineering analysis and design</span></span>
+  </a>
+  <nav class="nav" id="site-nav" aria-label="Main"><a href="/#services">Services</a><a href="/#pricing">Pricing</a><a href="/#work">Work</a><a href="/tools/" aria-current="page">Free tools</a><a href="/learn/">Learn</a><a href="/#about">About</a></nav>
+  <a class="btn btn-primary btn-sm" href="/contact/">Get a quote</a>
+  <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></header>
+<main id="main">
+
+<section class="page-head"><div class="container"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Free tools</nav><h1>Free engineering calculators</h1>
+<p>Nine tools for quick checks and learning. They run in your browser, need no sign-up, and show the formulas they use.</p></div></section>
+<section class="band" id="tools"><div class="container"><div class="toolbox">
+        <div class="tool-nav" role="tablist" aria-label="Tools" id="toolNav">
+          <button role="tab" id="tab-mohr" data-tool="mohr" aria-selected="true" aria-controls="tool-mohr">Mohr's circle<span>Principal stresses, von Mises</span></button>
+          <button role="tab" id="tab-beam" data-tool="beam" aria-selected="false" aria-controls="tool-beam">Beam deflection<span>Deflection, stress, safety factor</span></button>
+          <button role="tab" id="tab-fem" data-tool="fem" aria-selected="false" aria-controls="tool-fem">FEM in 60 seconds<span>Watch a mesh converge</span></button>
+          <button role="tab" id="tab-fatigue" data-tool="fatigue" aria-selected="false" aria-controls="tool-fatigue">Fatigue crack growth<span>Paris law life</span></button>
+          <button role="tab" id="tab-composite" data-tool="composite" aria-selected="false" aria-controls="tool-composite">Composite stiffness<span>Rule of mixtures, Halpin–Tsai</span></button>
+          <button role="tab" id="tab-select" data-tool="select" aria-selected="false" aria-controls="tool-select">Material selector<span>Ashby chart, 23 materials</span></button>
+          <button role="tab" id="tab-xrd" data-tool="xrd" aria-selected="false" aria-controls="tool-xrd">XRD peak positions<span>Bragg's law, cubic crystals</span></button>
+          <button role="tab" id="tab-creep" data-tool="creep" aria-selected="false" aria-controls="tool-creep">Diffusion and creep life<span>Arrhenius, Larson–Miller</span></button>
+          <button role="tab" id="tab-units" data-tool="units" aria-selected="false" aria-controls="tool-units">Unit converter<span>Stress, energy, toughness…</span></button>
+        </div>
+
+        <div class="tool-stack">
+
+          <!-- Mohr's circle -->
+          <article class="tool-panel" id="tool-mohr" role="tabpanel" aria-labelledby="tab-mohr">
+            <div class="tool-head"><div><h3>Mohr's circle calculator</h3><p>Enter a plane stress state to get principal stresses, maximum shear stress, the principal angle and von Mises stress, with the circle drawn to scale.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="row3">
+                  <div class="field"><label for="m-sx">σ<sub>x</sub> <span class="unit">MPa</span></label><input type="number" id="m-sx" value="80" step="1"></div>
+                  <div class="field"><label for="m-sy">σ<sub>y</sub> <span class="unit">MPa</span></label><input type="number" id="m-sy" value="-40" step="1"></div>
+                  <div class="field"><label for="m-txy">τ<sub>xy</sub> <span class="unit">MPa</span></label><input type="number" id="m-txy" value="30" step="1"></div>
+                </div>
+                <div class="field"><label for="m-th">Rotate the element by θ = <span id="m-th-val" class="mono">20°</span></label><input type="range" id="m-th" min="-90" max="90" value="20" step="1"></div>
+                <div class="outs">
+                  <div class="hl"><b id="m-s1">—</b><span>σ<sub>1</sub> (MPa)</span></div>
+                  <div class="hl"><b id="m-s2">—</b><span>σ<sub>2</sub> (MPa)</span></div>
+                  <div><b id="m-tp">—</b><span>principal angle θ<sub>p</sub></span></div>
+                  <div><b id="m-tmax">—</b><span>max in-plane shear (MPa)</span></div>
+                  <div><b id="m-tabs">—</b><span>max shear, σ<sub>z</sub> = 0 (MPa)</span></div>
+                  <div><b id="m-vm">—</b><span>von Mises (MPa)</span></div>
+                  <div><b id="m-sxp">—</b><span>σ<sub>x′</sub> at θ (MPa)</span></div>
+                  <div><b id="m-syp">—</b><span>σ<sub>y′</sub> at θ (MPa)</span></div>
+                  <div><b id="m-txyp">—</b><span>τ<sub>x′y′</sub> at θ (MPa)</span></div>
+                </div>
+              </div>
+              <div class="chart"><svg id="m-svg" role="img" aria-label="Mohr's circle for the entered stress state"></svg>
+                <div class="legend"><span><i class="dot" style="background:var(--s1)"></i>X (σ<sub>x</sub>, τ<sub>xy</sub>) and Y (σ<sub>y</sub>, −τ<sub>xy</sub>)</span><span><i class="dot" style="background:var(--s2)"></i>rotated element X′, Y′</span><span><i class="dot" style="background:var(--amber)"></i>principal stresses</span></div>
+              </div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Centre <code>C = (σx + σy)/2</code>, radius <code>R = √[((σx − σy)/2)² + τxy²]</code>. Principal stresses <code>σ1,2 = C ± R</code>, principal angle <code>tan 2θp = 2τxy / (σx − σy)</code>.</p>
+              <p>On a rotated element: <code>σx′ = C + (σx − σy)/2·cos 2θ + τxy·sin 2θ</code> and <code>τx′y′ = −(σx − σy)/2·sin 2θ + τxy·cos 2θ</code>.</p>
+              <p>Sign convention: tension is positive, θ is anticlockwise, τ is plotted upward with X at (σx, τxy). Turning the element by θ moves X by 2θ clockwise around the circle. Von Mises for plane stress: <code>σvM = √(σx² − σxσy + σy² + 3τxy²)</code>.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="mohr">Copy link to this tool</button><span>Need the full stress field in a real part? <a href="/contact/">Get an FEM quote</a></span></div>
+          </article>
+
+          <!-- Beam -->
+          <article class="tool-panel" id="tool-beam" role="tabpanel" aria-labelledby="tab-beam" hidden>
+            <div class="tool-head"><div><h3>Beam deflection and stress calculator</h3><p>Cantilever or simply supported beam, point or distributed load, rectangular, round or tubular section. Get deflection, bending stress, safety factor and mass.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="seg two" role="radiogroup" aria-label="Support">
+                  <label><input type="radio" name="bsup" id="b-cant" value="cant" checked>Cantilever<span>Fixed at one end</span></label>
+                  <label><input type="radio" name="bsup" id="b-ss" value="ss">Simply supported<span>Pinned at both ends</span></label>
+                </div>
+                <div class="seg two" role="radiogroup" aria-label="Load">
+                  <label><input type="radio" name="bload" id="b-pt" value="point" checked>Point load<span id="b-pt-sub">At the free end</span></label>
+                  <label><input type="radio" name="bload" id="b-udl" value="udl">Distributed<span>Uniform along the span</span></label>
+                </div>
+                <svg id="b-schem" viewBox="0 0 360 100" aria-hidden="true" style="width:100%;height:auto"></svg>
+                <div class="row2">
+                  <div class="field" id="b-P-f"><label for="b-P">Load P <span class="unit">N</span></label><input type="number" id="b-P" value="1000" min="0" step="10"></div>
+                  <div class="field" id="b-w-f" hidden><label for="b-w">Load w <span class="unit">N/mm (= kN/m)</span></label><input type="number" id="b-w" value="2" min="0" step="0.1"></div>
+                  <div class="field"><label for="b-L">Span L <span class="unit">mm</span></label><input type="number" id="b-L" value="500" min="1" step="10"></div>
+                </div>
+                <div class="field"><label for="b-sec">Cross-section</label>
+                  <select id="b-sec"><option value="rect">Solid rectangle</option><option value="circ">Solid round bar</option><option value="tube">Round tube</option></select></div>
+                <div class="row2" id="b-rect-f">
+                  <div class="field"><label for="b-b">Width b <span class="unit">mm</span></label><input type="number" id="b-b" value="20" min="0.1" step="1"></div>
+                  <div class="field"><label for="b-h">Height h <span class="unit">mm</span></label><input type="number" id="b-h" value="40" min="0.1" step="1"></div>
+                </div>
+                <div class="row2" id="b-circ-f" hidden>
+                  <div class="field"><label for="b-d">Diameter d <span class="unit">mm</span></label><input type="number" id="b-d" value="30" min="0.1" step="1"></div>
+                </div>
+                <div class="row2" id="b-tube-f" hidden>
+                  <div class="field"><label for="b-D">Outer diameter D <span class="unit">mm</span></label><input type="number" id="b-D" value="40" min="0.1" step="1"></div>
+                  <div class="field"><label for="b-t">Wall thickness t <span class="unit">mm</span></label><input type="number" id="b-t" value="3" min="0.1" step="0.5"></div>
+                </div>
+                <div class="field"><label for="b-mat">Material</label>
+                  <select id="b-mat">
+                    <option value="steel">Structural steel (E 200 GPa, yield 250 MPa)</option>
+                    <option value="ss304">Stainless steel 304 (E 193 GPa, yield 215 MPa)</option>
+                    <option value="al">Aluminium 6061-T6 (E 69 GPa, yield 276 MPa)</option>
+                    <option value="ti">Ti-6Al-4V (E 114 GPa, yield 880 MPa)</option>
+                    <option value="custom">Custom material</option>
+                  </select></div>
+                <div class="row3" id="b-cust-f" hidden>
+                  <div class="field"><label for="b-E">E <span class="unit">GPa</span></label><input type="number" id="b-E" value="200" min="0.01" step="1"></div>
+                  <div class="field"><label for="b-sy">Yield <span class="unit">MPa</span></label><input type="number" id="b-sy" value="250" min="1" step="5"></div>
+                  <div class="field"><label for="b-rho">Density <span class="unit">kg/m³</span></label><input type="number" id="b-rho" value="7850" min="1" step="10"></div>
+                </div>
+              </div>
+              <div class="inputs">
+                <div class="outs">
+                  <div class="hl"><b id="b-oD">—</b><span>max deflection (mm)</span></div>
+                  <div class="hl"><b id="b-oS">—</b><span>max bending stress (MPa)</span></div>
+                  <div><b id="b-oF">—</b><span>safety factor on yield</span></div>
+                  <div><b id="b-oI">—</b><span>second moment I (mm⁴)</span></div>
+                  <div><b id="b-oMm">—</b><span>max moment (N·m)</span></div>
+                  <div><b id="b-oM">—</b><span>beam mass (kg)</span></div>
+                </div>
+                <div class="verdict" id="b-verdict">—</div>
+                <div class="chart"><svg id="b-svg" role="img" aria-label="Deflected shape of the beam"></svg><p class="cap">Deflected shape along the span. Hover to read the deflection at any point.</p></div>
+              </div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Euler–Bernoulli beam theory, linear elastic, small deflections. Maximum deflection: cantilever end load <code>PL³/3EI</code>, cantilever distributed <code>wL⁴/8EI</code>, simply supported centre load <code>PL³/48EI</code>, simply supported distributed <code>5wL⁴/384EI</code>.</p>
+              <p>Bending stress <code>σ = M·c / I</code> with <code>c</code> the distance to the outer fibre. Second moments: rectangle <code>bh³/12</code>, round bar <code>πd⁴/64</code>, tube <code>π(D⁴ − d⁴)/64</code>.</p>
+              <p>Shear deformation, stress concentrations at supports and holes, and buckling are not included.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="beam">Copy link to this tool</button><span>Real parts have holes, fillets and joints. <a href="/contact/">Get an FEM quote</a></span></div>
+          </article>
+
+          <!-- FEM demo -->
+          <article class="tool-panel" id="tool-fem" role="tabpanel" aria-labelledby="tab-fem" hidden>
+            <div class="tool-head"><div><h3>The finite element method in 60 seconds</h3><p>A 1 m steel bar hangs from its top and carries its own uniform load. Split it into elements, and this page builds the stiffness matrix, solves it and compares the result with the exact answer.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="field"><label for="f-n">Number of elements: <span id="f-n-val" class="mono">4</span></label><input type="range" id="f-n" min="1" max="20" value="4" step="1"></div>
+                <div class="field"><label for="f-q">Distributed load q <span class="unit">N/mm</span></label><input type="number" id="f-q" value="10" min="0.1" step="1"></div>
+                <p class="small muted">Fixed values: length L = 1000 mm, area A = 100 mm², E = 200 GPa.</p>
+                <div class="outs">
+                  <div class="hl"><b id="f-u">—</b><span>tip displacement, FEM (mm)</span></div>
+                  <div><b id="f-uex">—</b><span>exact (mm)</span></div>
+                  <div><b id="f-uerr">—</b><span>error</span></div>
+                  <div class="hl"><b id="f-s">—</b><span>max stress, FEM (MPa)</span></div>
+                  <div><b id="f-sex">—</b><span>exact (MPa)</span></div>
+                  <div><b id="f-err">—</b><span>error</span></div>
+                </div>
+                <div><p class="lab" style="margin-bottom:6px">Reduced stiffness matrix K (× EA/h)</p><div id="f-matrix" class="tbl-wrap" style="padding:8px"></div></div>
+              </div>
+              <div class="inputs">
+                <div class="chart"><svg id="f-svg-s" role="img" aria-label="Stress along the bar, FEM against exact"></svg>
+                  <div class="legend"><span><i style="background:var(--s1)"></i>FEM (constant in each element)</span><span><i style="background:var(--muted)"></i>exact</span></div></div>
+                <div class="chart"><svg id="f-svg-u" role="img" aria-label="Displacement along the bar, FEM against exact"></svg>
+                  <div class="legend"><span><i style="background:var(--s1)"></i>FEM nodes</span><span><i style="background:var(--muted)"></i>exact</span></div></div>
+              </div>
+            </div>
+            <details class="how" open><summary>What you're seeing</summary><div class="body">
+              <p>Each element is a spring with stiffness <code>k = EA/h</code>. The page assembles them into one matrix, applies the fixed support, and solves <code>K u = F</code> for the node displacements.</p>
+              <p>The nodal displacements are exact for this problem, but the stress inside each element is constant, so the peak stress at the support is underestimated by 1/(2n). Doubling the elements halves the error. This is why every serious FEM study includes a mesh convergence check.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="fem">Copy link to this tool</button><span>Need a converged FEM study? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- Fatigue -->
+          <article class="tool-panel" id="tool-fatigue" role="tabpanel" aria-labelledby="tab-fatigue" hidden>
+            <div class="tool-head"><div><h3>Fatigue crack growth life (Paris law)</h3><p>Estimate how many load cycles a crack takes to grow from its initial size to the critical size where the part fractures.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="field"><label for="p-mat">Material (Paris constants)</label>
+                  <select id="p-mat">
+                    <option value="fp">Ferrite–pearlite steel (C 6.9×10⁻¹², m 3.0)</option>
+                    <option value="mart">Martensitic steel (C 1.35×10⁻¹⁰, m 2.25)</option>
+                    <option value="aus">Austenitic stainless steel (C 5.6×10⁻¹², m 3.25)</option>
+                    <option value="custom">Custom constants</option>
+                  </select></div>
+                <div class="row2">
+                  <div class="field"><label for="p-C">C <span class="unit">m/cycle, ΔK in MPa√m</span></label><input type="number" id="p-C" value="6.9e-12" step="any"></div>
+                  <div class="field"><label for="p-m">m</label><input type="number" id="p-m" value="3" step="0.05" min="1"></div>
+                </div>
+                <div class="row2">
+                  <div class="field"><label for="p-smax">σ<sub>max</sub> <span class="unit">MPa</span></label><input type="number" id="p-smax" value="200" min="1" step="5"></div>
+                  <div class="field"><label for="p-smin">σ<sub>min</sub> <span class="unit">MPa</span></label><input type="number" id="p-smin" value="0" step="5"></div>
+                </div>
+                <div class="row3">
+                  <div class="field"><label for="p-a0">Initial crack a₀ <span class="unit">mm</span></label><input type="number" id="p-a0" value="1" min="0.01" step="0.1"></div>
+                  <div class="field"><label for="p-Y">Geometry factor Y</label><input type="number" id="p-Y" value="1.12" min="0.1" step="0.01"></div>
+                  <div class="field"><label for="p-KIC">K<sub>IC</sub> <span class="unit">MPa√m</span></label><input type="number" id="p-KIC" value="50" min="1" step="1"></div>
+                </div>
+                <div class="outs">
+                  <div class="hl"><b id="p-N">—</b><span>cycles to failure</span></div>
+                  <div class="hl"><b id="p-ac">—</b><span>critical crack size (mm)</span></div>
+                  <div><b id="p-ds">—</b><span>stress range Δσ (MPa)</span></div>
+                  <div><b id="p-dk0">—</b><span>ΔK at start (MPa√m)</span></div>
+                  <div><b id="p-dkc">—</b><span>ΔK at failure (MPa√m)</span></div>
+                  <div><b id="p-half">—</b><span>cycles to double a₀</span></div>
+                </div>
+                <div class="verdict" id="p-note">—</div>
+              </div>
+              <div class="chart"><svg id="p-svg" role="img" aria-label="Crack length against load cycles"></svg><p class="cap">Crack length against cycles. Most of the life is spent while the crack is still small.</p></div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Paris law <code>da/dN = C (ΔK)^m</code> with <code>ΔK = Y Δσ √(πa)</code>. Integrating from a₀ to the critical size <code>a_c = (1/π)(K_IC / (Y σmax))²</code> gives the life in closed form.</p>
+              <p>Δσ counts only the tensile part of the cycle (σmin below zero is taken as zero). Constant Y, no threshold ΔK<sub>th</sub>, no load sequence effects. Steel constants are the Barsom–Rolfe values. Use test data for your own material when you design a real part.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="fatigue">Copy link to this tool</button><span>Need a fatigue assessment from FEM stresses? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- Composites -->
+          <article class="tool-panel" id="tool-composite" role="tabpanel" aria-labelledby="tab-composite" hidden>
+            <div class="tool-head"><div><h3>Composite stiffness calculator</h3><p>Stiffness and density of a unidirectional fibre composite from its fibre volume fraction, with a comparison against aluminium and steel.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="field"><label for="c-fib">Fibre</label>
+                  <select id="c-fib"><option value="carbon">Carbon fibre, standard modulus (T300 class)</option><option value="glass">E-glass fibre</option><option value="custom">Custom fibre</option></select></div>
+                <div class="row3">
+                  <div class="field"><label for="c-Ef1">Fibre E, axial <span class="unit">GPa</span></label><input type="number" id="c-Ef1" value="230" min="0.1" step="1"></div>
+                  <div class="field"><label for="c-Ef2">Fibre E, transverse <span class="unit">GPa</span></label><input type="number" id="c-Ef2" value="15" min="0.1" step="1"></div>
+                  <div class="field"><label for="c-rf">Fibre density <span class="unit">g/cm³</span></label><input type="number" id="c-rf" value="1.76" min="0.1" step="0.01"></div>
+                </div>
+                <div class="row2">
+                  <div class="field"><label for="c-Em">Matrix E (epoxy) <span class="unit">GPa</span></label><input type="number" id="c-Em" value="3.5" min="0.1" step="0.1"></div>
+                  <div class="field"><label for="c-rm">Matrix density <span class="unit">g/cm³</span></label><input type="number" id="c-rm" value="1.2" min="0.1" step="0.01"></div>
+                </div>
+                <div class="field"><label for="c-vf">Fibre volume fraction V<sub>f</sub> = <span id="c-vf-val" class="mono">60%</span></label><input type="range" id="c-vf" min="0" max="80" value="60" step="1"></div>
+                <div class="outs">
+                  <div class="hl"><b id="c-E1">—</b><span>E₁ along fibres (GPa)</span></div>
+                  <div class="hl"><b id="c-E2h">—</b><span>E₂ across, Halpin–Tsai (GPa)</span></div>
+                  <div><b id="c-E2r">—</b><span>E₂ inverse rule, lower bound</span></div>
+                  <div><b id="c-rho">—</b><span>density (g/cm³)</span></div>
+                  <div><b id="c-spec">—</b><span>E₁/ρ (GPa per g/cm³)</span></div>
+                  <div><b id="c-x">—</b><span>vs aluminium (E/ρ ≈ 25.6)</span></div>
+                </div>
+              </div>
+              <div class="chart"><svg id="c-svg" role="img" aria-label="Composite stiffness against fibre volume fraction"></svg>
+                <div class="legend"><span><i style="background:var(--s1)"></i>E₁ along fibres</span><span><i style="background:var(--s2)"></i>E₂ across fibres (Halpin–Tsai)</span></div></div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Along the fibres the phases share the strain: <code>E₁ = Vf·Ef + (1 − Vf)·Em</code>. Across them the inverse rule <code>1/E₂ = Vf/Ef + (1 − Vf)/Em</code> is a lower bound; Halpin–Tsai with ξ = 2, <code>E₂ = Em(1 + ξηVf)/(1 − ηVf)</code>, <code>η = (Ef/Em − 1)/(Ef/Em + ξ)</code>, is closer to test data.</p>
+              <p>Carbon fibres are anisotropic, so their transverse modulus (about 15 GPa) is used for E₂. Values are typical; ply properties from your supplier's datasheet should be used for design.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="composite">Copy link to this tool</button><span>Need a laminate or composite part analysed? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- Material selector -->
+          <article class="tool-panel" id="tool-select" role="tabpanel" aria-labelledby="tab-select" hidden>
+            <div class="tool-head"><div><h3>Material selector (Ashby chart)</h3><p>Pick a design goal and see which materials do it best. The line on the chart passes through the best candidate; everything above it performs better for that goal.</p></div></div>
+            <div class="row2">
+              <div class="field"><label for="s-index">Design goal</label>
+                <select id="s-index">
+                  <option value="tie">Light, stiff tie or strut in tension (maximise E/ρ)</option>
+                  <option value="beam" selected>Light, stiff beam (maximise E^½/ρ)</option>
+                  <option value="plate">Light, stiff panel or plate (maximise E^⅓/ρ)</option>
+                  <option value="strength">Light, strong tie (maximise σ/ρ)</option>
+                </select></div>
+              <div class="field"><label for="s-search">Find a material</label><input type="search" id="s-search" placeholder="e.g. titanium, PEEK, alumina"></div>
+            </div>
+            <div class="tool-grid wide-left">
+              <div class="chart"><svg id="s-svg" role="img" aria-label="Young's modulus against density for common engineering materials, log scales"></svg>
+                <div class="legend" id="s-legend"></div></div>
+              <div><p class="lab" style="margin-bottom:8px" id="s-rank-title">Best for this goal</p><div class="rank" id="s-rank"></div></div>
+            </div>
+            <div class="tbl-wrap"><table id="s-table"><thead><tr>
+              <th><button type="button" data-sort="name">Material</button></th>
+              <th><button type="button" data-sort="fam">Family</button></th>
+              <th class="n"><button type="button" data-sort="E">E (GPa)</button></th>
+              <th class="n"><button type="button" data-sort="rho">ρ (g/cm³)</button></th>
+              <th class="n"><button type="button" data-sort="s">Strength (MPa)</button></th>
+              <th class="n"><button type="button" data-sort="k">k (W/m·K)</button></th>
+              <th class="n"><button type="button" data-sort="a">α (µm/m·K)</button></th>
+              <th class="n"><button type="button" data-sort="T">T<sub>max</sub> (°C)</button></th>
+            </tr></thead><tbody id="s-tbody"></tbody></table></div>
+            <p class="small muted">Typical room-temperature values. Strength is yield for metals, tensile for polymers, composites and wood, flexural for technical ceramics and compressive for concrete. T<sub>max</sub> is the melting point, solidus, softening or glass transition. Grades and suppliers vary, so use datasheets for design. Click a column to sort.</p>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>For a light beam of fixed length and stiffness, the mass is smallest when <code>E^½/ρ</code> is largest (Ashby, <em>Materials Selection in Mechanical Design</em>). On log axes every index is a straight line: slope 1 for ties, 2 for beams and 3 for plates.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="select">Copy link to this tool</button><span>Need a material choice justified with simulation? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- XRD -->
+          <article class="tool-panel" id="tool-xrd" role="tabpanel" aria-labelledby="tab-xrd" hidden>
+            <div class="tool-head"><div><h3>XRD peak position calculator</h3><p>Predict the 2θ positions of diffraction peaks for simple cubic, BCC, FCC and diamond-cubic crystals using Bragg's law and the selection rules.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <div class="field"><label for="x-mat">Material</label>
+                  <select id="x-mat">
+                    <option value="al">Aluminium (FCC, a = 4.0495 Å)</option>
+                    <option value="cu">Copper (FCC, a = 3.6149 Å)</option>
+                    <option value="ni">Nickel (FCC, a = 3.5240 Å)</option>
+                    <option value="fe">α-Iron (BCC, a = 2.8665 Å)</option>
+                    <option value="w">Tungsten (BCC, a = 3.1652 Å)</option>
+                    <option value="si">Silicon (diamond cubic, a = 5.4309 Å)</option>
+                    <option value="custom">Custom crystal</option>
+                  </select></div>
+                <div class="row2">
+                  <div class="field"><label for="x-struct">Structure</label>
+                    <select id="x-struct"><option value="sc">Simple cubic</option><option value="bcc">BCC</option><option value="fcc" selected>FCC</option><option value="dia">Diamond cubic</option></select></div>
+                  <div class="field"><label for="x-a">Lattice parameter a <span class="unit">Å</span></label><input type="number" id="x-a" value="4.0495" min="0.5" step="0.0001"></div>
+                </div>
+                <div class="row2">
+                  <div class="field"><label for="x-rad">X-ray source</label>
+                    <select id="x-rad"><option value="1.5406">Cu Kα₁ (1.5406 Å)</option><option value="1.78897">Co Kα₁ (1.7890 Å)</option><option value="0.70932">Mo Kα₁ (0.7093 Å)</option><option value="custom">Custom wavelength</option></select></div>
+                  <div class="field"><label for="x-lam">Wavelength λ <span class="unit">Å</span></label><input type="number" id="x-lam" value="1.5406" min="0.1" step="0.0001"></div>
+                </div>
+                <div class="tbl-wrap" style="max-height:330px;overflow:auto"><table><thead><tr><th>hkl</th><th class="n">h²+k²+l²</th><th class="n">d (Å)</th><th class="n">2θ (°)</th></tr></thead><tbody id="x-tbody"></tbody></table></div>
+              </div>
+              <div class="chart"><svg id="x-svg" role="img" aria-label="Predicted diffraction peak positions"></svg><p class="cap">Peak positions only. Heights are equal here; real intensities depend on the structure factor, multiplicity and texture.</p></div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Cubic spacing <code>d = a / √(h² + k² + l²)</code>, Bragg's law <code>λ = 2d sin θ</code>. Allowed reflections: BCC when h + k + l is even; FCC when h, k, l are all odd or all even; diamond cubic when all odd, or all even with h + k + l divisible by 4.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="xrd">Copy link to this tool</button><span>Need XRD data analysed or indexed? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- Diffusion and creep -->
+          <article class="tool-panel" id="tool-creep" role="tabpanel" aria-labelledby="tab-creep" hidden>
+            <div class="tool-head"><div><h3>Diffusion and creep life calculator</h3><p>Diffusion coefficients from the Arrhenius equation, and creep-rupture life at service temperature from a test result using the Larson–Miller parameter.</p></div></div>
+            <div class="tool-grid">
+              <div class="inputs">
+                <p class="lab">Diffusion</p>
+                <div class="field"><label for="d-sys">Diffusion couple</label>
+                  <select id="d-sys">
+                    <option value="cg">Carbon in γ-iron (austenite)</option>
+                    <option value="ca">Carbon in α-iron (ferrite)</option>
+                    <option value="fg">Iron in γ-iron</option>
+                    <option value="fa">Iron in α-iron</option>
+                    <option value="cucu">Copper in copper</option>
+                    <option value="alal">Aluminium in aluminium</option>
+                    <option value="mgal">Magnesium in aluminium</option>
+                    <option value="zncu">Zinc in copper</option>
+                    <option value="custom">Custom D₀ and Q</option>
+                  </select></div>
+                <div class="row2">
+                  <div class="field"><label for="d-D0">D₀ <span class="unit">m²/s</span></label><input type="number" id="d-D0" value="2.3e-5" step="any"></div>
+                  <div class="field"><label for="d-Q">Q <span class="unit">kJ/mol</span></label><input type="number" id="d-Q" value="148" step="1"></div>
+                </div>
+                <div class="row2">
+                  <div class="field"><label for="d-T">Temperature <span class="unit">°C</span></label><input type="number" id="d-T" value="900" step="10"></div>
+                  <div class="field"><label for="d-t">Time <span class="unit">hours</span></label><input type="number" id="d-t" value="1" min="0" step="0.5"></div>
+                </div>
+                <div class="outs" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+                  <div class="hl"><b id="d-D">—</b><span>D (m²/s)</span></div>
+                  <div class="hl"><b id="d-x">—</b><span>diffusion distance √(Dt) (µm)</span></div>
+                </div>
+                <p class="lab" style="margin-top:8px">Creep life (Larson–Miller)</p>
+                <div class="row2">
+                  <div class="field"><label for="l-T1">Test temperature <span class="unit">°C</span></label><input type="number" id="l-T1" value="700" step="10"></div>
+                  <div class="field"><label for="l-t1">Rupture time in test <span class="unit">hours</span></label><input type="number" id="l-t1" value="1000" min="0.01" step="10"></div>
+                </div>
+                <div class="row2">
+                  <div class="field"><label for="l-T2">Service temperature <span class="unit">°C</span></label><input type="number" id="l-T2" value="600" step="10"></div>
+                  <div class="field"><label for="l-C">Constant C</label><input type="number" id="l-C" value="20" step="1"></div>
+                </div>
+                <div class="outs">
+                  <div><b id="l-P">—</b><span>Larson–Miller parameter</span></div>
+                  <div class="hl"><b id="l-t2">—</b><span>predicted life (hours)</span></div>
+                  <div class="hl"><b id="l-t2y">—</b><span>predicted life (years)</span></div>
+                </div>
+              </div>
+              <div class="chart"><svg id="d-svg" role="img" aria-label="Diffusion coefficient against temperature"></svg><p class="cap">D against temperature on a log scale. A rise of 100 °C often speeds diffusion tenfold or more.</p></div>
+            </div>
+            <details class="how"><summary>How it works</summary><div class="body">
+              <p>Arrhenius: <code>D = D₀ exp(−Q/RT)</code> with R = 8.314 J/mol·K and T in kelvin. Characteristic diffusion distance <code>x ≈ √(Dt)</code>. Preset D₀ and Q are textbook values (Callister).</p>
+              <p>Larson–Miller: <code>LMP = T (C + log₁₀ t_r)</code> with T in kelvin and t<sub>r</sub> in hours, C ≈ 20 for many steels. At the same stress, equal LMP means equal damage, so a short hot test predicts a long cooler service life. Extrapolating far beyond test data is risky; use it for screening.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="creep">Copy link to this tool</button><span>Need creep data analysed or modelled? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+          <!-- Units -->
+          <article class="tool-panel" id="tool-units" role="tabpanel" aria-labelledby="tab-units" hidden>
+            <div class="tool-head"><div><h3>Engineering unit converter</h3><p>Convert stress, force, length, energy, energy per mole or per atom, temperature, density, fracture toughness, torque and thermal conductivity in one step.</p></div></div>
+            <div class="row3">
+              <div class="field"><label for="u-cat">Quantity</label><select id="u-cat"></select></div>
+              <div class="field"><label for="u-val">Value</label><input type="number" id="u-val" value="1" step="any"></div>
+              <div class="field"><label for="u-from">From unit</label><select id="u-from"></select></div>
+            </div>
+            <div class="tbl-wrap"><table><thead><tr><th>Unit</th><th class="n">Value</th><th></th></tr></thead><tbody id="u-tbody"></tbody></table></div>
+            <details class="how"><summary>Conversion factors</summary><div class="body">
+              <p>1 psi = 6894.757 Pa · 1 lbf = 4.448222 N · 1 eV = 1.602177 × 10⁻¹⁹ J · 1 eV/atom = 96.485 kJ/mol · 1 ksi√in = 1.098843 MPa√m · 1 lb/in³ = 27 679.9 kg/m³ · 1 BTU/(h·ft·°F) = 1.730735 W/m·K.</p>
+            </div></details>
+            <div class="tool-foot"><button class="linkbtn" type="button" data-copy-tool="units">Copy link to this tool</button><span>Need a custom calculator or script? <a href="/contact/">Get a quote</a></span></div>
+          </article>
+
+        </div>
+      </div>
+</div></section>
+<section class="cta"><div class="container">
+  <div><h2>Tell me about your project</h2><p>Send a short description and I'll reply within 24 hours with a fixed price and timeline. No obligation.</p></div>
+  <div class="actions"><a class="btn btn-light" href="/contact/">Get a free quote</a><a class="btn btn-ghost-light" href="https://wa.me/918837708287?text=Hello%20Shakti%2C%20I%20found%20your%20website%20and%20would%20like%20a%20quote%20for%20an%20engineering%20job." target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.1Z"/><path d="M9 10.5c.4 1.8 2.2 3.6 4 4l1.2-1.1 1.8.8-.3 1.5c-3.5.4-7.7-3.8-7.3-7.3l1.5-.3.8 1.8Z"/></svg>WhatsApp</a></div>
+</div></section>
+</main>
+<footer class="footer"><div class="container">
+  <div class="footer-cols">
+    <div style="display:grid;gap:14px;align-content:start">
+      <a class="brand" href="/" style="margin:0"><span class="brand-mark" aria-hidden="true">SK</span><span class="brand-name"><strong>Shakti Kumar</strong><span>Engineering analysis and design</span></span></a>
+      <p>FEM, CAD, MATLAB and Python, and materials simulation for companies, research groups and students worldwide, at fair, fixed prices.</p>
+      <ul>
+        <li><a href="mailto:kr.shakti13@gmail.com">kr.shakti13@gmail.com</a></li>
+        <li><a href="https://wa.me/918837708287?text=Hello%20Shakti%2C%20I%20found%20your%20website%20and%20would%20like%20a%20quote%20for%20an%20engineering%20job." target="_blank" rel="noopener">WhatsApp +91 88377 08287</a></li>
+        <li><a href="https://www.linkedin.com/in/shaktikumar1310/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/Shaktikr" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+    <div><h4>Services</h4><ul><li><a href="/services/finite-element-analysis/">Finite element analysis</a></li><li><a href="/services/cad-design/">CAD design and drawings</a></li><li><a href="/services/mechanical-aerospace-analysis/">Mechanical and aerospace analysis</a></li><li><a href="/services/computational-materials/">Computational materials science</a></li><li><a href="/services/matlab-python-programming/">MATLAB and Python programming</a></li><li><a href="/services/research-support/">Research and technical support</a></li><li><a href="/services/engineering-tutoring/">Tutoring for students</a></li></ul></div>
+    <div><h4>Free tools</h4><ul><li><a href="/tools/mohrs-circle-calculator/">Mohr's circle calculator</a></li><li><a href="/tools/beam-deflection-calculator/">Beam deflection calculator</a></li><li><a href="/tools/finite-element-method-demo/">Finite element method demo</a></li><li><a href="/tools/paris-law-fatigue-calculator/">Fatigue crack growth calculator</a></li><li><a href="/tools/composite-stiffness-calculator/">Composite stiffness calculator</a></li><li><a href="/tools/material-selection-ashby-chart/">Material selector</a></li><li><a href="/tools/">All free tools</a></li></ul></div>
+    <div><h4>More</h4><ul>
+      <li><a href="/#pricing">Pricing</a></li><li><a href="/#work">Recent work</a></li><li><a href="/#about">About</a></li>
+      <li><a href="/learn/">Learn: concepts and software</a></li><li><a href="/contact/">Get a quote</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span class="js-year">2026</span> Shakti Kumar. Independent engineering services, not affiliated with or endorsed by IIT Kanpur.</span>
+    <span>Prices in EUR and GBP are approximate; invoices are issued in USD, EUR, GBP or INR.</span>
+  </div>
+</div></footer>
+<a class="wa-float" href="https://wa.me/918837708287?text=Hello%20Shakti%2C%20I%20found%20your%20website%20and%20would%20like%20a%20quote%20for%20an%20engineering%20job." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.1Z"/><path d="M9 10.5c.4 1.8 2.2 3.6 4 4l1.2-1.1 1.8.8-.3 1.5c-3.5.4-7.7-3.8-7.3-7.3l1.5-.3.8 1.8Z"/></svg><span>WhatsApp</span></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/assets/site.js" defer></script><script src="/assets/tools.js" defer></script>
+</body>
+</html>

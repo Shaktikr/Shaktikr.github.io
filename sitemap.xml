@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://shaktikr.github.io/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/contact/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/tools/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/learn/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/finite-element-analysis/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/cad-design/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/mechanical-aerospace-analysis/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/computational-materials/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/matlab-python-programming/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/research-support/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://shaktikr.github.io/services/engineering-tutoring/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://shaktikr.github.io/tools/mohrs-circle-calculator/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://shaktikr.github.io/tools/beam-deflection-calculator/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://shaktikr.github.io/tools/finite-element-method-demo/</loc><lastmod>2026-10-09</lastmod></url>
