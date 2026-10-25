@@ -20,4 +20,8 @@
   <url><loc>https://shaktikr.github.io/tools/xrd-peak-calculator/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://shaktikr.github.io/tools/diffusion-creep-life-calculator/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://shaktikr.github.io/tools/engineering-unit-converter/</loc><lastmod>2026-10-09</lastmod></url>
+<url><loc>https://shaktikr.github.io/portfolio/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://shaktikr.github.io/portfolio/tutoring/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://shaktikr.github.io/portfolio/ai-stem/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://shaktikr.github.io/portfolio/data-science/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

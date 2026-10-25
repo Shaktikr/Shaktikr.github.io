@@ -2,7 +2,7 @@
    Contact details and prices are set in CONFIG (generated from build.py). */
 const CONFIG = {
   "siteUrl": "https://shaktikr.github.io/",
-  "email": "kr.shakti13@gmail.com",
+  "email": "shaktikumarrasra@gmail.com",
   "whatsapp": "918837708287",
   "whatsappDisplay": "+91 88377 08287",
   "linkedin": "https://www.linkedin.com/in/shaktikumar1310/",
